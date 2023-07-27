@@ -1,0 +1,127 @@
+body
+    {
+      background-color:black;
+    }
+
+img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  backdrop-filter: blur(14px);
+  margin-top: 20px;
+}
+
+h1{
+  text-align: center;
+  font-family:arial black;
+  font-size:25px;
+  background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 300s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+.a{
+  width: 250px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  background-image: 
+  linear-gradient(to bottom,orange,white,green);
+  border: 2px solid whitesmoke;
+}
+
+.b{
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  align-content: center;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-left: 20px;
+  background-color: #AAFF00;
+}
+
+h4{
+  background-image: linear-gradient(to left ,red,orange,blue,purple,pink,green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-animation  300s linear infinite;
+ 
+}
+
+.d{
+ background-image: linear-gradient(to right,orange,white,green);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ animation:rainbow-animation 300s linear infinite;
+ 
+  
+}
+
+.f{
+  margin-top: 50px;
+  width: 80vw;
+  height: 40vw;
+}
+
+.e{
+  color: whitesmoke;
+  line-break: 20vw;
+  line-height: 50w;
+}
+
+.g{
+  width: 200px;
+  height:70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h{
+  width: 100px;
+  height: 20px;
+  background: #AAFFDD;
+}
+
+.i{
+  margin-top: 10px;
+  width: 130px;
+  height: 20px;
+  background: #AAFFDD;
+}
+
+.j{
+  margin-top: 10px;
+  width: 160px;
+  height: 20px;
+  background: #AAFFDD;
+}
+
+@-webkit-keyframes slidein-left {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.c{
+ -moz-animation-duration:3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: slidein-left;
+  -webkit-animation-name: slidein-left;
+}
